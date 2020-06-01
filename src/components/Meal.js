@@ -12,11 +12,7 @@ import "./App.css"
                 {this.props.meals.map(meal => (
                    <MealItem user ={meal}/>
                 ))}
-                </div>
-                
-               
-               
-                
+                </div>   
             </div>
             
         )

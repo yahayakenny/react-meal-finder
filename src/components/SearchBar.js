@@ -2,18 +2,13 @@ import React, { Component } from 'react'
 
  class SearchBar extends Component {
     state = {text: ''}//Create a new state
-
     handleChange = (e) => {//call this function when the the onChange event listener is triggered.
         this.setState({text: e.target.value})//Update the state with the user's input
     }
-
     handleSubmit = (e) => {
         e.preventDefault()//prevent default submission of the form
         this.props.searchFood(this.state.text)//Use the searchFood props defined in App.js and invoke it with the user's input stored in 'this.state.text'
-
     }
-
-
 
     render() {
         return (
