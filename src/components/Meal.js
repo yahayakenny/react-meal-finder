@@ -11,10 +11,17 @@ import "./App.css"
                 <div style={userStyle}>
                     {this.props.meals.map(meal => (
                    <MealItem user ={meal}/>
+<<<<<<< HEAD
                     ))
                     }
                 </div>      
             </div>         
+=======
+                ))}
+                </div>   
+            </div>
+            
+>>>>>>> 23179fb5c1ac37946277084387ce5f43584189bb
         )
     }
 }
