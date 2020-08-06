@@ -1,11 +1,25 @@
-
+html, body {
+    position: relative;
+    overflow-x: hidden;
+}
 
 .cards {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-   
-
 }
 
+.meal-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 5fr));
+    width: 250px
+}
+
+h6{
+    font-family: 'Raleway'; 
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+   
+}
