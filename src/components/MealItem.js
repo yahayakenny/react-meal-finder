@@ -28,12 +28,11 @@ class MealItem extends Component {
               <br />
             </div>
             <div class='col-md-6 col-sm-12'>
-              
+               <h2>INSTRUCTIONS</h2>
                <h3>{this.props.user.strInstructions}</h3>  
                 
                <div class = "row">
                  <div class = "col-6">
-                
                  <h6> - {this.props.user.strIngredient1}</h6>
                  <h6> - {this.props.user.strIngredient2}</h6>
                  <h6> - {this.props.user.strIngredient3}</h6>
