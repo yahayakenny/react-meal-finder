@@ -3,6 +3,8 @@ html, body {
     overflow-x: hidden;
 }
 
+
+
 .cards {
     display: flex;
     justify-content: center;
@@ -10,16 +12,14 @@ html, body {
     margin-bottom: 50px;
 }
 
-.meal-item {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 5fr));
-    width: 250px
-}
 
-h6{
-    font-family: 'Raleway'; 
-    font-size: 22px;
+
+h3{
+    font-family: 'montserrat'; 
+    font-size: 16px;
     display: flex;
     justify-content: center;
    
 }
+
+
